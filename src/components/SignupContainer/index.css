@@ -1,20 +1,39 @@
-
 .box {
   position: absolute;
   top: 50%;
   left: 50%;
   /* width: 550px; */
-  padding-left: 10%;
-  padding-right:10%;
-  padding-top:30px;
+  padding-left:18%;
+  padding-right: 18%;
+  padding-top: 15px;
   transform: translate(-50%, -50%);
   background: #242424;
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgb(0 0 0 / 60%);
-  border-radius: 10px; 
-  width:60%;
-  height:80%
+  border-radius: 10px;
+  width: 60%;
+  height:95%;
 }
+
+@media only screen and (max-width: 1366px) {
+  .box {
+    width: 70%
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .box {
+    width: 80%
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .box {
+    width:100%
+  }
+}
+
+
 
 .MuiTabs-flexContainer {
   color: white;
@@ -37,6 +56,6 @@
   border-radius: 25px;
 }
 
-.MuiTabs-indicator{
+.MuiTabs-indicator {
   display: none;
 }

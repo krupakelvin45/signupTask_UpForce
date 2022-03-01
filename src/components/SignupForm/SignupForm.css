@@ -3,12 +3,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.formheader{
-    margin-bottom: 20px;
-    text-align: center;
+.formheader {
+  margin-bottom: 20px;
+  text-align: center;
 }
-.tandc{
-    color: limegreen;
+.tandc {
+  color: limegreen;
 }
 label {
   display: block;
@@ -16,9 +16,9 @@ label {
   font-size: 8pt;
 }
 
-p{
-    color:white;
-    font-size: 18pt;
+p {
+  color: white;
+  font-size: 18pt;
 }
 
 input {
@@ -27,18 +27,19 @@ input {
   line-height: 20px;
   background-color: transparent;
   color: white;
+  width:200px;
 }
 
-.btncontainer{
+.btncontainer {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.errorText{
-  color:red;
-  margin-top:10px
+.errorText {
+  color: red;
+  margin-top: 10px;
 }
 .submitbtn {
   width: 150px;
@@ -49,18 +50,24 @@ input {
   color: white;
 }
 
-.formelement input{
-    margin-bottom: 20px;
-    width:100%
+@media only screen and (max-width: 1000px) {
+  .submitbtn {
+    width: 100px;
+  }
 }
 
-.tandccheckbox{
-    color: limegreen !important;
-    display: inline !important;
+.formelement input {
+  margin-bottom: 20px;
+  width: 100%;
 }
 
-.tandcbox{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.tandccheckbox {
+  color: limegreen !important;
+  display: inline !important;
+}
+
+.tandcbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
