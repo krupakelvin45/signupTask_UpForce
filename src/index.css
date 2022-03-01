@@ -1,0 +1,21 @@
+.primary {
+  color: limegreen !important;
+}
+
+.secondary{
+  color: white !important;
+}
+
+body{
+  background-color: black;
+}
+.button {
+  left: 50%;
+  border-radius: 25px;
+  width: 300px;
+  height: 25px;
+  margin-bottom: 4px;
+  border-color: limegreen !important;
+  background-color: black;
+  color: white;
+}
